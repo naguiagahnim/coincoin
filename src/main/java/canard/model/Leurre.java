@@ -1,4 +1,4 @@
-package canard;
+package canard.model;
 
 import canard.model.cancan.CanardMuet;
 import canard.model.cancan.ComportementCancan;

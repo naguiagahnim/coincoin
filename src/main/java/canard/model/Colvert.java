@@ -1,4 +1,4 @@
-package canard;
+package canard.model;
 
 import canard.model.cancan.Coincoin;
 import canard.model.cancan.ComportementCancan;

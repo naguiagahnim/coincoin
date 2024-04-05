@@ -3,11 +3,6 @@ package canard.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import canard.model.model.Canard;
-import canard.model.model.CanardEnPlastique;
-import canard.model.model.Colvert;
-import canard.model.model.Leurre;
-import canard.model.model.Mandarin;
 
 public class Simulateur {
 
@@ -38,8 +33,8 @@ public class Simulateur {
 	    for (Canard canard : canards) {
 	        System.out.println(canard.getNom() + " : " + canard.afficher());
 	        System.out.println(canard.nager());
-	        System.out.println(canard.effectuerVol());
-	        System.out.println(canard.cancanner());
+	        System.out.println(canard.voler());
+	        System.out.println(canard.faireCancan());
 	    }
 	}
 }

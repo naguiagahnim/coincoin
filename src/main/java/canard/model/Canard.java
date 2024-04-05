@@ -11,12 +11,11 @@ public abstract class Canard {
     private ComportementVol comportementVol;
     private ComportementCancan comportementCancan;
 
-    public Canard() {
-    }
 
-    public Canard(ComportementVol comportementVol, ComportementCancan comportementCancan) {
+    public Canard(String nom, ComportementVol comportementVol, ComportementCancan comportementCancan) {
         this.comportementVol = comportementVol;
         this.comportementCancan = comportementCancan;
+        this.nom = nom;
     }
 
     public void setComportementVol(ComportementVol comportementVol) {
@@ -41,5 +40,9 @@ public abstract class Canard {
 
     public void voler() {
         comportementVol.voler();
+    }
+    
+    public String getNom() {
+        return nom;
     }
 }

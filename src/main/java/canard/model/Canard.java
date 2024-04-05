@@ -30,16 +30,16 @@ public abstract class Canard {
         return "Je suis un canard";
     }
 
-    public void nager() {
-        System.out.println("Je nage");
+    public String nager() {
+        return "Je nage";
     }
 
-    public void faireCancan() {
-        comportementCancan.cancaner();
+    public String faireCancan() {
+        return comportementCancan.cancaner();
     }
 
-    public void voler() {
-        comportementVol.voler();
+    public String voler() {
+        return comportementVol.voler();
     }
     
     public String getNom() {

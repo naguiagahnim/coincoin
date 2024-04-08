@@ -10,8 +10,8 @@ public class CanardEnPlastique extends Canard {
     }
 
     @Override
-    public void nager() {
-        System.out.println("Je ne peux pas nager");
+    public String nager() {
+        return "Je ne peux pas nager";
     }
 
     @Override

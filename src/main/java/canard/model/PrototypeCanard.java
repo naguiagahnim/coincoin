@@ -12,7 +12,7 @@ public class PrototypeCanard extends Canard {
 
     @Override
     public String nager() {
-        return "Tous les canards flottent, même les leurres! mais pas les prototypes de canards!";
+        return "Tous les canards flottent, même les leurres ! Mais pas les prototypes de canards !";
     }
 
 

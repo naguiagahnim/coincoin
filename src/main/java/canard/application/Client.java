@@ -19,8 +19,5 @@ public class Client {
         System.out.println(predator.voler());
         predator.setComportementVol(new PropulsionAReaction());
         System.out.println(predator.voler());
-        
 	}
-
-
 }
